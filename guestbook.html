@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="design.css">
+    <title>Guestbook</title>
+</head>
+
+<body>
+    <div id="container" data-v-app>
+        <h1>{{header}}</h1>
+        <div id="inputs">
+            <strong> Username: <input type="text" placeholder="Enter Username"></strong>
+            <br> <br>
+            <strong> Password: <input type="password" placeholder="Enter Password"></strong>
+        </div>
+        <div id="buttons">
+            <br><br>
+            <button @click="btnsignin()" class="btn_signin">Sign in</button>
+            <button @click="btnsignup()" class="btn_signup">Sign up</button>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="guestbook.js"></script>
+
+</body>
+
+</html>
