@@ -1,7 +1,8 @@
 const app = Vue.createApp({
     data() {
         return {
-            header: "Guestbook",
+            header: "Write your Message :)",
+            message: "Write your Message",
         };
     },
     methods: {
