@@ -37,4 +37,8 @@ async function loadUserCollection() {
 }
 
 
+// sign up function
+
+
+
 module.exports = router;
